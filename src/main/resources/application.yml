@@ -1,0 +1,20 @@
+
+logging:
+  level:
+    org:
+      springframework:
+        web: DEBUG
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: Cvpt.2022
+    url: jdbc:mysql://criptary-bdd-login.cdxw0neqxxgc.us-east-1.rds.amazonaws.com
+    username: admcripta
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL57InnoDBDialect
+        schema: org.hibernate.dialect.MySQL57InnoDBDialect
+    show-sql: true
